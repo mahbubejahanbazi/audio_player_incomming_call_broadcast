@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ir.jahanbazi.audioplayerincommingcallbroadcast">
+    package="ir.mjahanbazi.audioplayerincommingcallbroadcast">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AudioPlayerIncommingCallBroadcast">
         <activity
-            android:name="ir.jahanbazi.audioplayerincommingcallbroadcast.MainActivity"
+            android:name="ir.mjahanbazi.audioplayerincommingcallbroadcast.MainActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
