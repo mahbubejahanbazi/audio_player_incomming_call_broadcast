@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.telephony.TelephonyManager;
 
-public class MyCallReceiver extends BroadcastReceiver {
+public class CallReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         MainActivity activity = (MainActivity) context;

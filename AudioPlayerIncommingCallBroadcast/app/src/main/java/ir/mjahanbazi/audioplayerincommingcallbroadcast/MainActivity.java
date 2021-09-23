@@ -10,7 +10,7 @@ import android.os.Bundle;
 
 
 public class MainActivity extends AppCompatActivity {
-    public MyAudioPlayer audioPlayer;
+    public AudioPlayer audioPlayer;
     private final int REQUEST_CODE_READ_PHONE_STATE_PERMISSIONS = 1;
 
     @Override
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         }
         IntentFilter intent = new IntentFilter();
         intent.addAction("android.intent.action.PHONE_STATE");
-        MyCallReceiver call = new MyCallReceiver();
+        CallReceiver call = new CallReceiver();
         registerReceiver(call, intent);
     }
 }

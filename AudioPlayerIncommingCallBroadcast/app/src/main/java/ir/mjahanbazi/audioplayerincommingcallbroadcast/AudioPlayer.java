@@ -18,7 +18,7 @@ import androidx.annotation.Nullable;
 
 import java.util.concurrent.TimeUnit;
 
-public class MyAudioPlayer extends androidx.constraintlayout.widget.ConstraintLayout {
+public class AudioPlayer extends androidx.constraintlayout.widget.ConstraintLayout {
     private MediaPlayer mediaPlayer;
     private ImageButton playButton;
     private ImageButton pauseButton;
@@ -103,12 +103,12 @@ public class MyAudioPlayer extends androidx.constraintlayout.widget.ConstraintLa
         }
     };
 
-    public MyAudioPlayer(@NonNull Context context) {
+    public AudioPlayer(@NonNull Context context) {
         super(context);
         init(context);
     }
 
-    public MyAudioPlayer(@NonNull Context context, @Nullable AttributeSet attrs) {
+    public AudioPlayer(@NonNull Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         init(context);
     }
